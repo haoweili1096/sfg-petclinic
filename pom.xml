@@ -14,7 +14,7 @@
     </parent>
     <groupId>haowei.springframework</groupId>
     <artifactId>sfg-petclinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>sfg-petclinic</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -41,5 +41,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:haoweili1096/sfg-petclinic.git</developerConnection>
-    </scm>
+      <tag>sfg-petclinic-0.0.2</tag>
+  </scm>
 </project>
