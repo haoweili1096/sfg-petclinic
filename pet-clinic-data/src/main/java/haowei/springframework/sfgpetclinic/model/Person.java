@@ -4,7 +4,7 @@ package haowei.springframework.sfgpetclinic.model;
  * Created by haoweili on 11/4/2020
  */
 
-public class Person {
+public class Person extends BaseEntity{
 
 
     private String firstName;
