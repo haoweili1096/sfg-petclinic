@@ -1,13 +1,13 @@
 package haowei.springframework.sfgpetclinic.services.map;
 
 import haowei.springframework.sfgpetclinic.model.Speciality;
-import haowei.springframework.sfgpetclinic.services.SpecialitiesService;
+import haowei.springframework.sfgpetclinic.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialityService {
 
     @Override
     public Set<Speciality> findAll() {
