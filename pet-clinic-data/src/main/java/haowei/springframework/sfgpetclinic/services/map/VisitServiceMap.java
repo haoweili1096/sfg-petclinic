@@ -2,9 +2,11 @@ package haowei.springframework.sfgpetclinic.services.map;
 
 import haowei.springframework.sfgpetclinic.model.Visit;
 import haowei.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
