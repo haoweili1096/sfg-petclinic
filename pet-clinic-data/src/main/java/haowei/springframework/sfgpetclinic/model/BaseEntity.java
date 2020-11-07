@@ -7,6 +7,7 @@ import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 
 //@MappedSuperclass: established this as a base class to JPA
+//database中就不会出现这个类了
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 
