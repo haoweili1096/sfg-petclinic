@@ -1,5 +1,14 @@
-haowei\springframework\sfgpetclinic\model\PetType.class
+haowei\springframework\sfgpetclinic\services\CrudService.class
 haowei\springframework\sfgpetclinic\model\Owner.class
 haowei\springframework\sfgpetclinic\model\Vet.class
+haowei\springframework\sfgpetclinic\services\map\PetServiceMap.class
+haowei\springframework\sfgpetclinic\services\PetService.class
+haowei\springframework\sfgpetclinic\model\BaseEntity.class
+haowei\springframework\sfgpetclinic\services\map\AbstractMapService.class
+haowei\springframework\sfgpetclinic\services\map\VetServiceMap.class
+haowei\springframework\sfgpetclinic\services\OwnerService.class
 haowei\springframework\sfgpetclinic\model\Pet.class
+haowei\springframework\sfgpetclinic\services\VetService.class
+haowei\springframework\sfgpetclinic\model\PetType.class
+haowei\springframework\sfgpetclinic\services\map\OwnerServiceMap.class
 haowei\springframework\sfgpetclinic\model\Person.class
