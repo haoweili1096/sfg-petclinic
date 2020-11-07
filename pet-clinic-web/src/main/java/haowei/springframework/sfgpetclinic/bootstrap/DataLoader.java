@@ -1,8 +1,10 @@
 package haowei.springframework.sfgpetclinic.bootstrap;
 
 import haowei.springframework.sfgpetclinic.model.Owner;
+import haowei.springframework.sfgpetclinic.model.PetType;
 import haowei.springframework.sfgpetclinic.model.Vet;
 import haowei.springframework.sfgpetclinic.services.OwnerService;
+import haowei.springframework.sfgpetclinic.services.PetTypeService;
 import haowei.springframework.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -14,14 +16,24 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
 
     @Override
     public void run(String... args) throws Exception {
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType saveDogPetType = petTypeService.save(dog);
+
+        PetType cat = new PetType();
+        dog.setName("Cat");
+        PetType saveCatPetType = petTypeService.save(cat);
 
         Owner owner1 = new Owner();
         //owner1.setId(1L);
