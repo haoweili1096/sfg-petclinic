@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.Set;
+import java.util.Collection;
 
 @Controller
 @RequestMapping("owners/{ownerId}")
@@ -29,8 +29,10 @@ public class PetController {
         this.petTypeService = petTypeService;
     }
 
+    //被@ModelAttribute注释的方法会在此controller每个方法执行前被执行
+    //这里相当于得到一个Collection<PetType> types = petTypeService.findAll()的变量
     @ModelAttribute("types")
-    public Set<PetType> populatePetTypes(){
+    public Collection<PetType> populatePetTypes(){
         return petTypeService.findAll();
     }
 
