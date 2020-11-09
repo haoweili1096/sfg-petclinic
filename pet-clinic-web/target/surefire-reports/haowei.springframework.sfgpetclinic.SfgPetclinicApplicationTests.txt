@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: haowei.springframework.sfgpetclinic.SfgPetclinicApplicationTests
+Test set: haowei.springframework.sfgpetclinic.SfgPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.023 s - in haowei.springframework.sfgpetclinic.SfgPetclinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.845 s - in haowei.springframework.sfgpetclinic.SfgPetClinicApplicationTests
