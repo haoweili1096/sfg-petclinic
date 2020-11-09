@@ -41,6 +41,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:haoweili1096/sfg-petclinic.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 </project>

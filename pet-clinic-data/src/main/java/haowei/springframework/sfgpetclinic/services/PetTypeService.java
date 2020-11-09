@@ -2,6 +2,8 @@ package haowei.springframework.sfgpetclinic.services;
 
 import haowei.springframework.sfgpetclinic.model.PetType;
 
-public interface PetTypeService extends CrudService<PetType, Long>{
-
+/**
+ * Created by jt on 7/29/18.
+ */
+public interface PetTypeService extends CrudService<PetType, Long> {
 }

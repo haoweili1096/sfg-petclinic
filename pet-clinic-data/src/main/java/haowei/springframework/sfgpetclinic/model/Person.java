@@ -9,15 +9,14 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Created by haoweili on 11/4/2020
+ * Created by jt on 11/8/2020.
  */
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @MappedSuperclass
-public class Person extends BaseEntity{
+public class Person extends BaseEntity {
 
     public Person(Long id, String firstName, String lastName) {
         super(id);

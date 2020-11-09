@@ -5,6 +5,9 @@ import lombok.*;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+/**
+ * Created by jt on 11/8/2020.
+ */
 @Setter
 @Getter
 @NoArgsConstructor
@@ -12,7 +15,7 @@ import java.time.LocalDate;
 @Builder
 @Entity
 @Table(name = "visits")
-public class Visit extends BaseEntity{
+public class Visit extends BaseEntity {
 
     @Column(name = "date")
     private LocalDate date;
