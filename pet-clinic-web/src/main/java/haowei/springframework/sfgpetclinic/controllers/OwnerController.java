@@ -46,7 +46,8 @@ public class OwnerController {
         }
 
         //find owners by last name
-        List<Owner> results = ownerService.findAllByLastNameLike(owner.getLastName());
+        // % is wild card. 不加这个like的功能就不work
+        List<Owner> results = ownerService.findAllByLastNameLike("%" + owner.getLastName() + "%");
 
         if(results.isEmpty()){
             // no result found
