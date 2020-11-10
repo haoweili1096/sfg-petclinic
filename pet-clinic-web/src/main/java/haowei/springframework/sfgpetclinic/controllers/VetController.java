@@ -30,6 +30,8 @@ public class VetController {
         return "vets/index";
     }
 
+    //@ResponseBody want this to be formatted as JSON/XML
+    //depending on the request type.
     @GetMapping("/api/vets")
     public @ResponseBody Set<Vet> getVetsJson(){
 
