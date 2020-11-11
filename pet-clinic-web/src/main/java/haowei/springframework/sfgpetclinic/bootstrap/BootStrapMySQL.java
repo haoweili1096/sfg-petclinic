@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-@Profile({"springdatajpa"})
+//@Profile({"springdatajpa"})
 public class BootStrapMySQL implements ApplicationListener<ContextRefreshedEvent> {
     private final OwnerRepository ownerRepository;
     private final VetRepository vetRepository;

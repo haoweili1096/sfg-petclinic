@@ -12,7 +12,7 @@ import java.time.LocalDate;
  * Created by jt on 7/25/18.
  */
 @Component
-@Profile("default")
+//@Profile("default")
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
